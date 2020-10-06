@@ -1,0 +1,49 @@
+.target{
+    margin-left:100px;
+    float:left;
+}
+
+.target .title{
+    font-size: 15px;
+    margin-top:15px;
+    background:gray;
+    color:white;
+    padding:2px;
+    width: 250px;
+}
+
+.target img{
+    width: 250px;
+    display: block;
+    border:2px solid gray;
+    cursor: pointer;
+}
+
+.target img:hover{
+    border-color:rgb(68, 108, 241);
+}
+
+.preview{
+    float:left;
+    
+}
+
+#maximize{
+    margin-left:5px;
+    position: fixed;
+    top:0;
+    width:30%;
+    height: auto;
+    border:2px solid gray;
+    padding:5px;
+    z-index: 2;
+}
+
+#export{
+    position:fixed;
+    left:0;
+    padding:5px;
+    background:rgb(68, 108, 241);
+    color:white;
+    text-decoration: none;
+}
